@@ -1,15 +1,26 @@
-# Human Detection & counting Project
+# Face Detection Project
 
-To run the human detection deep learning project, please run below-mentioned commands as per requirements
+This is a simple Python project that detects faces in images using OpenCV's Haar Cascade classifier. The program reads an input image, detects faces, draws bounding boxes around detected faces, and saves the resulting image with annotations.
 
-1. To give video file as input:
-python main.py -v ‘Path_to_video’
+---
 
-2. To give image file as input:
-python main.py -i ‘Path_to-image’
+## Features
 
-3. To use the camera:
-python main.py -c True
+- Detects faces in a static image
+- Draws rectangles and labels on detected faces
+- Outputs the annotated image to a specified file path
+- Easy to run from the command line
 
-4. To save the output:
-Python main.py -c True -o ‘file_name’
+---
+
+## Requirements
+
+- Python 3.6+
+- OpenCV (`opencv-python`)
+- imutils
+- numpy
+
+Install dependencies with:
+
+```bash
+pip install opencv-python imutils numpy
