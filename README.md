@@ -24,3 +24,14 @@ Install dependencies with:
 
 ```bash
 pip install opencv-python imutils numpy
+```
+---
+## Usage
+Run the script from the command line with the following arguments:
+```bash
+python human-counting-project-code.py --image <input_image_path> --output <output_image_path>
+```
+Example
+```bash
+python human-counting-project-code.py --image C:/Users/Admin/Desktop/image.jpg --output C:/Users/Admin/Desktop/output.jpg
+```
